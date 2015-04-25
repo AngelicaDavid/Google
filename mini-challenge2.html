@@ -1,0 +1,141 @@
+<html>
+<head><title> Google </title>
+<style>
+	.text {
+		display:inline-block;
+	}
+	.googlelogo {
+		width:269px;
+	}
+	.mic {
+        background:url('mic.gif') right no-repeat;
+        background-size:17px 17px;
+    }
+	#floater {
+		right:10px;
+		position: absolute;
+	}
+	#font {
+		font-family:Arial, sans-serif;
+		font-size:13px;
+		color:rgb(64,64,64);
+	}
+	#up {
+		font-family:Arial, sans-serif;
+		font-size:13px;
+		color:rgb(64,64,64);
+		text-decoration: none;
+	}
+	#up:hover {
+		text-decoration: underline;
+	}
+	#options {
+		background-position:-326px -52px;
+        background-image:url('icons.png');
+        position:relative;
+        bottom:-10px;
+		width:30px;
+		height:30px;
+		opacity:.55;
+	}
+	#options:hover {
+		opacity: 1.0;
+	}
+	#signin {
+		background-color: rgb(69,134,245);
+		border-radius: 2px;
+		border-width: 0px;
+		padding:5px 10px;
+		color:white;
+	}
+	#signin:hover {
+		box-shadow: 0 1px 0 rgba(0,0,0,.15);
+	}
+	#search {
+		width:542px;
+		border: 1px solid rgba(0,0,0,0.15);
+		opacity: .8;
+	}
+	#search:hover {
+		border: 1px solid rgba(0,0,0,0.3);
+		opacity: 1.0;
+	}
+	#search:active {
+		border:1px solid rgb(66, 133, 244);
+	}
+	#buttons {
+		background-color:rgb(243,243,243);
+        border:1px solid rgba(0,0,0,0.098);
+        color:rgb(68,68,68);
+        font:bold 11px/27px Arial, sans-serif;
+	}
+	#buttons:hover {
+		border:1px solid rgb(0,0,0,0.1);
+		color:rgb(34,34,34);
+		box-shadow: 0 1px 0 rgba(0,0,0,.15);
+		font: bold 11px/27px Arial, sans-serif;
+	}
+	#translate {
+		font: 13px Arial, sans-serif;
+		text-decoration: none;
+	}
+	#translate:hover {
+		text-decoration: underline;
+	}
+	#general {
+		position: absolute;
+		width:100%;
+		bottom:0px;
+		left:0px;
+		background-color: rgb(242,242,242);
+		border-color: rgb(228,228,228);
+		color:rgb(34,34,34);
+		font: 13px Arial, sans-serif;
+	}	
+	#bottomleft {
+		bottom:0px;
+		left:0px;
+	}
+	#bottomright {
+		position:fixed;
+		bottom:0;
+		right:15px;
+	}
+</style>
+</head>
+<body>
+	<div id = "floater">
+		<a href = "#" id = "up"> +You </a>
+		<a href = "#" id = "up"> Gmail </a>
+		<a href = "#" id = "up"> Images </a>
+		<li id = "options" class = "text"></li>
+		<button id = "signin"> Sign In </button>		
+	</div><br><br><br><br><br><br<><br><br><br><br><br>
+	<div id = "font">
+		<center>
+			<img src = 'logo11w.png' class = "googlelogo"></img>
+			<br><br><br>
+			<input type = "text" id = "search" class="mic"></input><br><br>
+			<button id = "buttons"> Google Search </button>
+			<button id = "buttons"> I'm Feeling Lucky </button><br><br><br>
+			Google.com.ph offered in:
+			<a href = "#" id = "translate"> Filipino </a>
+			<a href = "#" id = "translate"> Cebuano </a>
+		</center>
+	</div>
+
+	<div id = "general">
+		<ul id = "bottomleft">
+			<a href = "#" id = "up"> Advertising
+			<a href = "#" id = "up"> Business
+			<a href = "#" id = "up"> About
+		</ul>
+		<ul id = "bottomright">
+			<a href = "#" id = "up"> Privacy </a>
+			<a href = "#" id = "up"> Terms </a>
+			<a href = "#" id = "up"> Settings </a>
+			<a href = "#" id = "up"> Use Google.com </a>
+		</ul>
+	</div>
+</body>
+</html>
